@@ -47,7 +47,7 @@ function findLargestInteger(integers) {
   // ✨ implement
   let result = integers[0].integer;
   
-  for (let i = 0; i < integers.length; i++) {
+  for (let i = 1; i < integers.length; i++) {
     if (integers[i].integer > result) {
       result = integers[i].integer
     }
